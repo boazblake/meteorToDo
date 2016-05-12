@@ -7,7 +7,6 @@ import './task.js';
 
 import './body.html'
 
-console.log('Meteor.user()',Meteor.user())
 
 Template.body.onCreated(function bodyOnCreated() {
 	this.state = new ReactiveDict();
@@ -31,6 +30,7 @@ Template.body.events({
 	'submit .new-task' (event) {
 		console.log(event)
 		event.preventDefault();
+		
 		const target = event.target;
 
 		const text = target.text.value;

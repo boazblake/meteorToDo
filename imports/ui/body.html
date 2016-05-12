@@ -1,11 +1,11 @@
 <body>
     <div class="container">
         <header>
-            <h1>TO DO</h1>
-            <h3>There are {{incompleteCount}} items to be completed</h3>
+            <h1>Message Board</h1>
+            <h3>There is {{incompleteCount}} things to be checked off</h3>
 
             <label class='hide-completed'>
-                <input type='checkbox'/>
+                <input type='checkbox' class='{{#if checked}}checked{{/if}}'/>
                 Hide Completed Tasks
             </label>
 
