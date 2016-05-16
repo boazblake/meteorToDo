@@ -1,3 +1,3 @@
 TO DO app
 
-Meteor, JS
+Meteor, reactJS, Heroku

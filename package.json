@@ -1,6 +1,6 @@
 {
   "name": "todos",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "meteor run"
   },
